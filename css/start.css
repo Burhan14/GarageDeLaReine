@@ -1,0 +1,15 @@
+
+
+* {
+	box-sizing: border-box; /* width and height include paddings and borders */
+	margin: 0; /* wipe out browser differences */
+	padding: 0; /* wipe out browser differences */ 
+}
+
+img {
+	border: 0;
+}
+	
+html {
+  font-size: 0.625em;
+}

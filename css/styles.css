@@ -1,0 +1,328 @@
+/**
+ * General stylesheet for Garage de la Reine
+ *
+ * @author Burhan Atesalp <burhan.atesalp@student.odisee.be>
+ *
+ */
+
+
+/* =============================================
+ * GENERAL
+ =============================================== */
+
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* =============================================
+ * LAYOUT
+ =============================================== */
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* =============================================
+ * HEADER
+ =============================================== */
+
+header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header .content ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+header .content ul li a {
+    padding: 2.5rem;
+    display: inline-block;
+    font-size: 1.6rem;
+}
+
+nav a:link {
+    color: #000;
+}
+
+nav a:visited {
+    color: #000;
+}
+
+nav a:hover {
+    color: #5faee3 !important;
+}
+
+nav a.active {
+    color: #FFF !important;
+    background-color: #3498db;
+    font-weight: bold;
+}
+
+#garageName {
+    padding: 1.5rem;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.4rem;
+}
+
+.content a:link {
+    color: #000;
+}
+
+.content a:visited {
+    color: #000;
+}
+
+.content a:hover {
+    color: #6e736f;
+}
+
+/* =============================================
+ * DOORMAT
+ =============================================== */
+
+
+
+/* =============================================
+ * CONTACT
+ =============================================== */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 0.2rem solid #3498db;
+    border-radius: 0.6rem;
+    box-sizing: border-box;
+    margin-top: 0.5rem;
+    margin-bottom: 1.4rem;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #3498db;
+    color: white;
+    padding: 1.2rem 2rem;
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #6e736f;
+}
+
+.contactFormulier {
+    border-radius: 0.6rem;
+    background-color: #f2f2f2;
+    padding: 2rem;
+    width: 50%;
+    margin-bottom: 10rem;
+}
+
+.contactInfo {
+    margin-left: 4rem;
+    width: 50%;
+}
+
+select:invalid {
+    color: gray;
+}
+
+.contactFormulier label {
+    font-size: 1.3rem;
+}
+
+.contact {
+    display: flex;
+}
+
+.info {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000;
+    margin-bottom: 9.4rem;
+    margin-top: 1.5rem; 
+}
+
+.info a {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000;
+}
+
+/* =============================================
+ * MAIN
+ =============================================== */
+
+.abt {
+    height: 24rem;
+    background-color: #3498db;
+}
+
+.about {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    background-color: #3498db;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 1.5rem;
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+.bg {
+    background-image: url(../img/img3.jpg);
+    background-size: cover;
+    display: block;
+    overflow: visible;
+    white-space: nowrap;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50rem;
+}
+
+
+
+
+.ServiceBg {
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50rem;
+}
+
+.serviceflex {
+    height: 80rem;
+    background-color: #3498db;
+}
+
+.service h2 {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    background-color: #3498db;
+    font-size: 7rem;
+}
+.Service h3{
+    font-size: 2.5rem;
+}
+.Service p{
+    font-size: 1.7rem;
+}
+
+.Service{
+    display: flex;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    background-color: #3498db;
+    text-align: center;
+}
+
+
+.SVcolumn {
+    float: left;
+    width: 50%;
+    padding: 1.5rem;
+    color: #FFF;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    border: 1rem solid;
+    border-radius: 1rem;
+}
+
+
+.garagePic img {
+    height: 24rem;
+    width: 36rem;
+    margin: 3rem;
+}
+
+.garagePic {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/* =============================================
+ * FOOTER
+ =============================================== */
+
+#join_us {
+    margin-bottom: 1.5rem;
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+#social_media {
+    padding: 1.5rem 0 4rem 0;
+    text-align: center;
+    background-color: #2b2b2b;
+}
+
+h4 {
+    color: #FFF;
+    font-size: 1rem;
+}
+
+#social_media a {
+    margin-right: 1.5rem;
+}
+
+#social_media>a:nth-child(6) {
+    margin-right: 0rem;
+}
+
+#social_media a img {
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    transition: all ease 0.4s;
+}
+
+#social_media a img:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+@media screen and (max-width: 60rem) {
+    .column {
+        width: 100%;
+    }
+
+    header .content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact {
+        flex-wrap: wrap;
+    }
+    .Service{
+        flex-wrap: wrap;
+    }
+
+}
